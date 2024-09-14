@@ -1,4 +1,4 @@
-import Navbar from './componets/navbar/navbar';
+
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Community from './pages/Community';
 import Ecommerse from './pages/ecommerse';
@@ -11,6 +11,8 @@ import Chatboticon from './componets/chatboticon/chatboticon';
 import Scan from './pages/scan';
 // import WeatherApp from './pages/weather';
 import Finanace from './pages/finanace';
+import Navbar from './componets/navbar/Navbar';
+
 
 
 
