@@ -1,6 +1,6 @@
 import  { useState, useEffect } from "react";
 import axios from "axios";
-import Forecast from "../componets/weather/forcast";
+import Forecast from "./Forecast";
 import SearchEngine from "../componets/weather/searchEngine";
 
 import '@fortawesome/fontawesome-free/css/all.min.css';

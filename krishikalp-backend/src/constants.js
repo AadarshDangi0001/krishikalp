@@ -1,1 +1,1 @@
-export const DB_NAME = "sih-backend-codecrew"
+export const DB_NAME = "krishikalp-codecrew"
