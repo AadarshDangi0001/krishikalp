@@ -1,11 +1,11 @@
 import  { useState, useEffect } from "react";
 import axios from "axios";
 import Forecast from "./Forecast";
-import SearchEngine from "../componets/weather/searchEngine";
+import SearchEngine from "./SearchEngine"
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import "./weatherstyles.css";
-import Navbar from "../navbar/Navbar";
+import "./weatherstyle.css";
+// import Navbar from "../componets/navbar/Navbar";
 
 function WeatherApp() {
   const [query, setQuery] = useState("");
@@ -85,7 +85,7 @@ function WeatherApp() {
 
   return (
     <div className="outer-container">
-      <Navbar/>
+      {/* <Navbar/> */}
     <div className="WeatherApp">
 
       {/* SearchEngine component */}

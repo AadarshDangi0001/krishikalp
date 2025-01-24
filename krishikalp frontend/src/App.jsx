@@ -9,7 +9,7 @@ import Home from './pages/home';
 import ChatBot from './pages/chatbot';
 import Chatboticon from './componets/chatboticon/chatboticon';
 import Scan from './pages/scan';
-// import WeatherApp from './pages/weather';
+import WeatherApp from './pages/weather';
 import Finanace from './pages/finanace';
 import Navbar from './componets/navbar/Navbar';
 
@@ -43,7 +43,7 @@ function MainLayout() {
         <Route path="/chatbot" element={<ChatBot />} />
         <Route path="/scan" element={<Scan />} />
         <Route path="/finanace" element={<Finanace />} />
-        {/* <Route path="/weather" element={<WeatherApp />} /> */}
+        <Route path="/weather" element={<WeatherApp />} />
       </Routes>
     </>
   );
