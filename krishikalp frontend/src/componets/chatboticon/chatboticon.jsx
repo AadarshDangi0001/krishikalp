@@ -13,11 +13,11 @@ export default function Chatboticon() {
 
   return (
     <>
-       
-       
-       <div className="chatboticon" onClick={() => handleClick('/chatbot')}>
-           <i className="ri-robot-3-fill"></i>
-       </div>
+      
+      
+      <div className="chatboticon" onClick={() => handleClick('/chatbot')}>
+          <i className="ri-robot-3-fill"></i>
+      </div>
     </>
   )
 }
